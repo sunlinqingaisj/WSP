@@ -322,28 +322,6 @@ footer p{
 		}
 }
 
-/*@media screen and (max-width: 1115px) {
-	nav{
-		width: 50%;
-		}
-	#gallery li{
-		width: 50%;
-	}
-}
-
-
-@media screen and (max-width: 888px) {
-	nav{
-	clear: right;
-	width: 70%;
-	}
-	h1{
-		float: left;
-	}
-	h2{
-		font-size: 1.25em /*20px*/
-	}
-}
 
 @media screen and (max-width: 804px) {
 	#gallery li{
