@@ -21,7 +21,7 @@
 			</ul>
 		</nav>
 		
-		<h1>Registration Form</h1>
+		<h2>Registration Form</h2>
 		<form>
 			<fieldset>
 				<label for="your_name">Name:</label>
@@ -30,7 +30,7 @@
 		
 			<fieldset>
 				<label for="your_email">Email:</label>
-				<input type="email" name="email address" id="your_email" placeholder="Your email address here" required="required" placeholder="example@hotmail.com" />
+				<input type="email" name="email address" id="your_email" required="required" placeholder="example@hotmail.com" />
 			</fieldset>
 			
 			<fieldset>
@@ -41,7 +41,7 @@
 			
 			<fieldset>
 				<label for="birth">Date of birth:</label>
-				<input type="date" name="date of birth" id="birth" placeholder="mm/dd/yyyy" />
+				<input type="date" name="date of birth" id="birth"/>
 			</fieldset>
 			
 			<fieldset>
@@ -55,9 +55,9 @@
 			</fieldset>
 			
 			<fieldset>
-				<legend for="from">Where are you from:</legend>
+				<legend>Where are you from:</legend>
 				<label for="states">States</label>
-				<select name="states" id="from" id="states">
+				<select name="states" id="states">
 				  <option>--Select one--</option>
 				  <option value="AK">AK</option>
 				  <option value="AL">AL</option>
@@ -116,30 +116,29 @@
 			<fieldset>
 				<label>Dance that you like</label>
 				<ul>
-				<li><input type="checkbox" name="type" id="Hip Hop" value="Hip Hop" checked="checked" /><label for="Hip Hop">Hip Hop</label></li>
+				<li><input type="checkbox" name="type" id="Hip_Hop" value="Hip Hop" checked="checked" /><label for="Hip_Hop">Hip Hop</label></li>
 				<li><input type="checkbox" name="type" id="Jazz" value="Jazz" /><label for="Jazz">Jazz</label></li>
 				<li><input type="checkbox" name="type" id="Ballet" value="Ballet" /><label for="Ballet">Ballet</label></li>
-				<li><input type="checkbox" name="type" id="Break Dance" value="Break Dance" /><label for="Break Dance">Break Dance</label></li>
-			</fieldset>
-			
-			<fieldset>
-				<input type="submit" name="submit" value="Submit" />
+				<li><input type="checkbox" name="type" id="Break_Dance" value="Break Dance" /><label for="Break_Dance">Break Dance</label></li>
+				</ul>
 			</fieldset>
 			</form>
-		<div>
 
 		<p>Injuries, Illnesses, Allergies, Disabilities, or Medications Cape Cod Hip Hop Should Be Aware of</p>	
 			<label for="comment"></label>
-				<textarea name="Comments" id="comment" rows="2" cols="10" placeholder="Comments"></textarea>
+				<textarea name="Comments" id="comment" rows="2" cols="80" placeholder="Comments"></textarea>
 
-		<p>I understand the regulations of Cape Cod Hip Hop &amp; Jazz, as stated on the back of this form, and that CCHH&amp;J
+		<p class="registration">I understand the regulations of Cape Cod Hip Hop &amp; Jazz, as stated on the back of this form, and that CCHH&amp;J
 		will not be liable for any injuries occurring during lessons or on the premises of the Atlantic Coast Academy’s Training Facility,
 		perfo rmances, and event facilities. I hereby grant to Cape Cod Hip Hop &amp; Jazz and its agents or assignees, the irrevocable right to use my name, picture, portrait or any other likeness or description of myself, also any discussion of my participation in any events or activities of Cape Cod Hip Hop &amp; Jazz for advertising or any other purpose.
 		</p>
 
-		<p>To reserve space for a Hip Hop or Jazz class, please complete and mail in an application for each student with a $35.00 non-refundable fee. $35.00 fee per student is needed to hold all dance classes for this dance year. Make checks payable to ACAD(Atlantic Coast Academy of Dance)
+		<p class="registration">To reserve space for a Hip Hop or Jazz class, please complete and mail in an application for each student with a $35.00 non-refundable fee. $35.00 fee per student is needed to hold all dance classes for this dance year. Make checks payable to ACAD(Atlantic Coast Academy of Dance)
 		</p>
 
+		<fieldset>
+				<input id="button" type="submit" name="submit" value="Submit" />
+			</fieldset>
 
 	<footer>
 	<p>&copy; Copyright 2013 Cape Code Hip Hop &amp; Jazz. All rights reserved.</p>

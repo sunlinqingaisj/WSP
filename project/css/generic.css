@@ -48,9 +48,11 @@ body{
 	margin: 0 auto;
 	font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #888888;
-/* 
- 	background: #f0e1c4; /*cotton white */
- */
+
+}
+
+img{
+	max-width: 100%;
 }
 
 /* #Typography
@@ -132,11 +134,11 @@ h1{
 
 #search{
 	float: right;
-	width: 300px;
+	width: 29%; /*300px;*/
 	border-radius: 5px;
 	height: 20px;
 	margin-top: 80px;
-	margin-right: 50px;
+	margin-right: 5%; /*50px;*/
 	background-color: #888888;
 }
 
@@ -148,7 +150,7 @@ nav{
 	overflow: hidden;
 	float: left;
 	padding: 0;
-	margin-bottom: 4.1666667%; /*40px;*/
+	margin-bottom: 40px;
 /*	margin-right: 65px;*/
 /*	width: 960px;*/
 }
@@ -163,7 +165,7 @@ nav ul li{
 	list-style: none;
 	float: left;
 	text-align: center;
-	width: 160px;
+	width: 10em; /*160px;*/
 	list-style: none;
 }
 
@@ -226,7 +228,7 @@ figcaption{
 
 #video{
 	float: right;
-	width: 700px;
+	width: 73%; /*700px;*/
 }
  
 /*#first_column{
@@ -264,7 +266,7 @@ dt{
 .news_pic{
 	margin-bottom: 10px;
 	float: left;
-	width: 50%;
+/*	width: 50%;*/
 }
 
 .news{
@@ -287,8 +289,12 @@ dt{
 ================================================== */
 
 #about_image{
-	width: 460px;
+	width: 48%; /*460px;*/
 	float: left;
+}
+
+.about_image{
+	margin-bottom: 10px;
 }
 
 #about_text{
@@ -296,12 +302,141 @@ dt{
 	float: right;
 }
 
+/* #Classes
+================================================== */
+	
+	caption{
+		font-size: 18px;
+		padding-bottom: 10px;
+		font-weight: bold;
+	}
+
+    table{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 16px;
+    /*font-weight: bold;*/
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+    margin-left: 15%; /*140px;*/
+    margin-bottom: 50px;
+    }
+
+    thead th{
+    padding:15px;
+    color:#fff;
+  /*  text-shadow:1px 1px 1px #568F23;*/
+  /*  border:1px solid #f7574b;*/
+    background-color:#888888;
+    border-radius: 3px;
+	}
+
+	tr:nth-child(even){
+		background-color: #28271f;
+	}
+
+	tr{
+		margin-top: 10px;
+	}	
+
+
+
+/* #Registration
+================================================== */
+
+fieldset{
+	margin-bottom: 15px;
+}
+
+input{
+	border-radius: 3px;
+	background-color: #888888;
+}
+
+textarea{
+	border-radius: 3px;
+	background-color: #888888;
+}
+
+.registration{
+	margin-top: 10px;
+}
+
+#button{
+        -moz-box-shadow:inset 0px 1px 0px 0px #e67a73;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #e67a73;
+        box-shadow:inset 0px 1px 0px 0px #e67a73;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #eb675e));
+        background:-moz-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+        background:-webkit-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+        background:-o-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+        background:-ms-linear-gradient(top, #e4685d 5%, #eb675e 100%);
+        background:linear-gradient(to bottom, #e4685d 5%, #eb675e 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#eb675e',GradientType=0);
+        
+        background-color:#e4685d;
+        
+        -moz-border-radius:7px;
+        -webkit-border-radius:7px;
+        border-radius:7px;
+        
+        border:1px solid #ffffff;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Trebuchet MS;
+        font-size:17px;
+        font-weight:bold;
+        padding:6px 11px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #b23e35;
+        
+    }
+    #button:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eb675e), color-stop(1, #e4685d));
+        background:-moz-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+        background:-webkit-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+        background:-o-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+        background:-ms-linear-gradient(top, #eb675e 5%, #e4685d 100%);
+        background:linear-gradient(to bottom, #eb675e 5%, #e4685d 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#eb675e', endColorstr='#e4685d',GradientType=0);
+        
+        background-color:#eb675e;
+    }
+    .button:active {
+        position:relative;
+        top:1px;
+    }
+
+
+/* #Contact
+================================================== */
+
+#contact{
+	width: 400px;
+	float: left;
+}
+
+#contact_form{
+	width: 400px;
+	clear: both;
+}
+
+#map{
+	width: 460px;
+	float: right;
+}
+
+
 /* #Footer
 ================================================== */
 
 footer{
 	clear: both;
-	width: 960px;
+	max-width: 960px;
 	height: 50px;
 	/*background-color: #28271f;*/
 	border-top: 2px solid #28271f;
@@ -315,7 +450,7 @@ footer p{
 
 /* #Media Queries
 ================================================== */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 960px) {
 	nav li{
 		width: 25%;
 		padding: 6px 0;
@@ -324,15 +459,50 @@ footer p{
 
 
 
-@media screen and (max-width: 600px) {
-	
-	#first_column,#second_column{
+@media screen and (max-width: 640px) {
+
+	#header{
+	background: url("../image/header_2.gif") no-repeat top center;
+	}
+
+	nav{
+		margin-left: 5em;
+	}
+
+	#first_column,#second_column,#third_column{
 		float: none;
 		width: 100%;
+		margin-left: 2em;
+	}
+
+	#first_pic{
+		margin-left: 3em;
+	}
+
+	.news_feed{
+		margin-left: 2em;
+	}
+
+	.feeds{
+		width: 80%;
+		float: left;
+	}
+
+	#second_column{
+		width: 93%;
+	}
+
+	#video{
+		width: 100%;
+/*		margin: 0 2em;*/
 	}
 }
-@media screen and (max-width: 452px) {
+@media screen and (max-width: 320px) {
 	
+	#header{
+	background: url("../image/header_3.gif") no-repeat top left;
+	}
+
 	nav li{
 		float: none;
 		width: 100%;
@@ -340,11 +510,32 @@ footer p{
 		padding: 1% 3%;
 		margin: 1%;
 	}
-	h1 {
-		float: none;
-		text-align: center;
-	}
 	
+	#first_pic{
+		margin: 0 auto;
+	}
+
+	.news_column{
+		width: 100%;
+	}
+
+	#first_column,#second_column,#third_column{
+		float: none;
+		width: 100%;
+		margin-left: .5em;
+	}
+
+	iframe{
+		max-width: 100%;
+	}
+
+	#video{
+		margin-left: .5em;
+	}
+
+	.feeds{
+		margin-left: 5em;
+	}
 }
 
 
